@@ -1,0 +1,12 @@
+// Copyright(C) 2022-2023 Intel Corporation
+// SPDX - License - Identifier: Apache - 2.0
+
+#ifndef PLUGINNAME_H
+#define PLUGINNAME_H
+
+#define PLUGIN_NAME "@OMZ_OBS_PLUGIN_NAME@"
+#define PLUGIN_VERSION "@OMZ_OBS_PLUGIN_VERSION@"
+
+#define blog(level, msg, ...) blog(level, "[" PLUGIN_NAME "] " msg, ##__VA_ARGS__)
+
+#endif // PLUGINNAME_H

@@ -72,7 +72,7 @@ Xcopy /E /I openvino-models C:\Path\To\OBS_Install\obs-studio\data\obs-plugins\o
 
 ```
 
-### Linux Procedure (Tested on Ubuntu 20.04 / 22.04)
+### Linux Procedure (Tested on Ubuntu 20.04/22.04)
 
 ```
 mkdir OV_OBS_Plugins_Build_Env
@@ -91,6 +91,7 @@ cd ..
 
 # Install OpenCV build dependencies
 sudo apt install opencv-devel
+(libopencv-dev for 22.04)
 
 # Install OBS & libobs build dependencies.
 # Download appropriate .deb package for the version of Ubuntu that you're on. (focal for 20.04, jammy for 22.04)

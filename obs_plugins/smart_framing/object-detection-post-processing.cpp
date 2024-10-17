@@ -1,7 +1,7 @@
 // Copyright(C) 2022-2023 Intel Corporation
 // SPDX - License - Identifier: Apache - 2.0
 #include "object-detection-post-processing.h"
-#include <ngraph/ngraph.hpp>
+#include <openvino/op/ops.hpp>
 
 std::vector<float> yolov4_tiny_defaultAnchors =
 { 10.0f, 14.0f, 23.0f, 27.0f, 37.0f, 58.0f,

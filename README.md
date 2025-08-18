@@ -69,7 +69,6 @@ copy /y D:\Your\Build\Workspace\openvino-obs-plugins-build\intel64\Release\*.dll
 
 :: Install the required openvino-models directory to the OBS data directory
 Xcopy /E /I openvino-models C:\Path\To\OBS_Install\obs-studio\data\obs-plugins\openvino-models
-
 ```
 
 ### Linux Procedure (Tested on Ubuntu 20.04/22.04)
